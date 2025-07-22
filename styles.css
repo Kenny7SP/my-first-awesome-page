@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
 /* Header */
 
 a, a:visited, a:hover, a:active {
@@ -50,8 +51,13 @@ a, a:visited, a:hover, a:active {
     margin-left: auto;
 }
 
+.header .inner .text .button {
+    transition: color 0.5s ease;
+
+}
+
 .header .inner .text .links .button:hover {
-    color: #c4c7cc;
+    color: #4b90ff;
 }
 
 ul {
@@ -62,7 +68,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 
@@ -73,7 +79,7 @@ a {
     margin: 0 auto;
     margin-top: 140px;
     gap: 15px;
-
+    align-items: center;
 }
 
 .header .inner .top-elements .top-text {
@@ -90,6 +96,7 @@ a {
 .header .inner .top-elements .top-text .text {
     font-size: 20px;
     color: #e5e7eb;
+    margin-bottom: 7px;
 }
 
 .header .inner .top-elements .button {
@@ -102,11 +109,12 @@ a {
     border: 0;
     margin-top: auto;
     text-align: center;
+    transition: background 0.8s ease;
 }
 
 .header .top-elements .button:hover{
     color:#f9faf8;
-    background-color: #3577e0;
+    background-color: #0053da;
 }
 
 .header .top-elements img {
@@ -248,20 +256,17 @@ a {
     font-weight: 900;
     font-size: 14px;
     padding: 10px 26px;
-    justify-content: center;
     margin-left: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     white-space: nowrap;
-
+    transition: background 0.8s ease;
 }
 
 .footer  .footer-sign-up .button:hover {
     background-color: #3577e0;
 } 
-
-.button:hover {
-    color: #c4c7cc;
-}
 
 /* Copyright */
 
@@ -269,6 +274,14 @@ a {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    color:#f9faf8;
-    padding: 50px 0
+    color:#a0a0a0;
+    padding: 50px 0;
+}
+
+.copyright .button {
+    transition: color 0.8s ease;
+}
+
+.copyright .button:hover {
+    color: #f9faf8;
 }
