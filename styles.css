@@ -6,6 +6,12 @@ body {
 
 /* Header */
 
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit; /* или #000, #fff и т.д. */
+}
+
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -196,7 +202,7 @@ a {
     flex-direction: column;
     justify-content: center;
     color:#f9faf8;   
-    margin: 80px 160px;
+    padding: 80px 160px;
 
 }
 
@@ -212,7 +218,8 @@ a {
     border-radius: 6px;
     display: flex;
     padding: 25px 60px;
-    max-width: 1000px;
+    max-width: 1200px;
+    max-height: 90px;
     flex: 1;
     margin: 0 auto;
 }
@@ -256,6 +263,7 @@ a {
     color: #c4c7cc;
 }
 
+/* Copyright */
 
  .copyright {
     display: flex;
